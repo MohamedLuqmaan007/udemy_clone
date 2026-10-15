@@ -61,7 +61,10 @@ body{
     padding: 10px;
 }
 .course-card{
-    width: 255px;
+    width: 240px;
+    border:solid black 1.5px;
+    border-radius: 5px;
+    padding:10px;
 }
 .course-card img{
     width:100%;
@@ -153,6 +156,7 @@ body{
     padding:40px;
     font-size: 16px;
     padding-bottom: 20px;
+
 }
     
 .line{
@@ -233,20 +237,11 @@ padding-left: 10px;
     padding:30px;
     display: flex;
     flex-direction: row;
-    padding-left: 40px;
+
 }
-.footer_top_s2{
-    margin-left: 200px;
-    gap:100px;
-}.footer_top_s3{
-    margin-left: 300px;
-    gap:50px;
-}
-.footer_top_s4{
-    margin-left: 300px;
-    gap:50px;
+
     
-}
+
 .footer_centre{
     background-color: #2a2b3f;
     color:white;
@@ -264,7 +259,7 @@ padding-left: 10px;
     display: flex;
     flex-direction: row;
     justify-content: start;
-    gap:250px;
+    gap:150px;
 }
 .footer_last{
     background-color: aquamarine;
@@ -273,6 +268,8 @@ padding-left: 10px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    gap:20px;
+   padding-right:30px;
 
 }
 .udemy_last{
@@ -281,23 +278,47 @@ padding-left: 10px;
 .footer_last{
     display: flex;
     gap: 350px;
-    justify-content: start;
+    flex-direction: row;
+    justify-content: space-between;
     padding-right: 30px;
     align-items: center;
 
 }
-.cookie{
-    padding-left: 180px;
-    justify-content: center;
-    gap:200px;
+
 
     
-}
+
 .footerlasts1{
+    display: flex;
+    gap:20px;
+}
+.footer_top{
+     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
     
-    display:flex;
-    padding-right: 200px;
-}.english{
+}
+.footer_top{
     justify-content: end;
-    gap:400px;
+}
+.Nasdaq,.NetApp,.Eventbrite
+{
+    display: flex;
+    flex-direction: row;
+   justify-content: flex-end;
+   padding-right: 20px;
+}
+.luq{
+    padding-right:570px;
+    justify-content: flex-end;
+}
+.cookie{
+    
+   padding-right: 170px;
+    justify-content: center;
+}
+.copy_udemy{
+    display:flex;
+    align-items: center;
 }
