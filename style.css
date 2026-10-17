@@ -260,6 +260,7 @@ padding-left: 10px;
     flex-direction: row;
     justify-content: start;
     gap:150px;
+    justify-content: space-between;
 }
 .footer_last{
     background-color: aquamarine;
@@ -321,4 +322,42 @@ padding-left: 10px;
 .copy_udemy{
     display:flex;
     align-items: center;
+}
+.footer_four{
+    background-color: #2a5261;
+    color: white;
+    padding: 38px;
+    width:1490px;
+    display:flex;
+   align-items: center  ;
+   justify-content: flex-start;
+  gap:240px;
+   
+    
+    
+}
+
+.skills_title{
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+.skills{
+    width: 20;
+    padding:20px;
+    padding-left: 3px;
+    font-size: 12px;
+    font-weight: lighter;
+    
+}
+.footer_top_topics{
+    padding: 40px;
+    display: flex;
+    justify-content: flex-start;
+    background-color:#2a5261;
+    color:white;
+    padding-bottom: 4px;
+    font-size: 20px;
+}
+.footer_centre p{
+    font-size: 14px;
 }
